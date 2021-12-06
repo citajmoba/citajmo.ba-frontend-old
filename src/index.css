@@ -1,0 +1,100 @@
+body {
+  max-width: 1300px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h3 {
+  margin-bottom: 80px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiToggleButtonGroup-root {
+  margin-bottom: 30px !important;
+}
+
+.form-add-book, .form-add-question label {
+  font-weight: bold;
+}
+
+.form-add-question {
+  margin-top: 20px
+}
+
+.question-details-nonempty {
+  background-color: #0275d8;
+  color: white;
+  padding-bottom: 20px;
+  height: fit-content
+}
+
+
+.form-add-answers .btn {
+  width: fit-content;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.show-question-buttons .btn {
+  width: 130px
+}
+
+p {
+  margin-bottom: 0 !important;
+  font-weight:500 ;
+  color: blue !important;
+}
+
+.list-group, .list-group-horizontal {
+  list-style-type: none;
+  margin-bottom: 20px !important;
+}
+
+.required {
+  border: 1px solid black !important;
+}
+
+#periodLabel2, .labelsGenre, .labelsNationality {
+  color: white
+}
+
+.was-validated .not-required:valid {
+  border-color:lightgray !important;
+  background-image: none !important;
+}
+
+.btn, .badge {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-reset, .btn-cancel, .btn-secondary, .badge-questions, .badge-close {
+  float: right
+}
+
+.badge {
+  width: 100px;
+  text-align: center;
+}
+
+ .badge-close {
+  background-color: darkgoldenrod;
+}
+
+.details-link {
+  text-decoration: underline;
+  font-weight: bold;
+  cursor:pointer
+}
+
+.details-link:hover {
+  color:black
+}
