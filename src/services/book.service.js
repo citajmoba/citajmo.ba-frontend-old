@@ -1,7 +1,8 @@
 import authHeader from "./auth-header";
 import axios from "axios";
+const sys = require('../config/sys.config');
 
-const API_URL = "http://localhost:8080/api/books";
+const API_URL = sys.BACKEND_SERVER_URL + "/api/books";
 
 class BookDataService {
 

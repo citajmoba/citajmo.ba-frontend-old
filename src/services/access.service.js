@@ -1,7 +1,8 @@
 import authHeader from "./auth-header";
 import axios from "axios";
+const sys = require('../config/sys.config');
 
-const API_URL = "http://localhost:8080/api/access/";
+const API_URL = sys.BACKEND_SERVER_URL + "/api/access/";
 
 class AccessService {
     getPublicContent() {
@@ -13,7 +14,6 @@ class AccessService {
     }
 
     getContributorBoard() {
-        console.log("I am here 7");
         return axios.get(API_URL + "contributor", { headers: authHeader()});
     }
 
