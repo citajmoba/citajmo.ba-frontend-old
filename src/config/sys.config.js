@@ -6,5 +6,5 @@ module.exports = {
     MIN_NO_QUESTIONS_CATEGORY_4: 3,
     MIN_NO_QUESTIONS_CATEGORY_5: 1,
     NO_QUESTION_CATEGORIES: 5,
-    BACKEND_SERVER_URL: 'http://www.citajmo.ba:8080'
+    BACKEND_SERVER_URL: 'http://www.citajmo.ba'
 }
